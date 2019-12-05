@@ -64,3 +64,216 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{
+	width: 65%;
+	margin: 0 auto;
+}
+ nav {
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: space-between;
+	 margin-top: 25px;
+	 padding-bottom: 40px;
+}
+
+ nav a {
+	 padding: 10px;
+	text-decoration: none;
+	color: rgba(15, 15, 15, 0.2);
+}
+
+nav .logo {
+	display: flex;
+	display: wrap;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	padding: 25px 0 100px 0;
+	border-bottom: 1px solid black;
+}
+
+header div {
+	display: flex;
+	flex-direction: column;
+	margin: 0 150px 0 100px;
+	width: 360px;
+	text-align: center;
+}
+
+header div h1 {
+	font-size: 80px;
+}
+
+header div a {
+	padding: 10px;
+	border: solid black 1px;
+	text-decoration: none;
+	color: black;
+	margin: 0 auto;
+	width: 200px;
+}
+
+header .header-img {
+	width: 380px;
+	height: 380px;
+}
+
+.top-section {
+	display: flex;
+	align-items: center;
+}
+
+.top-section h2 {
+	font-size: 18px;
+}
+
+.top-section p {
+	font-size: 16px;
+	text-align: left;
+}
+
+.top-section .top-content {
+	width: 49%;
+	margin: 25px 0px 25px 0px;
+	padding: 5px;
+}
+
+.middle-img {
+	width: 100%;	
+}
+
+.bottom-section {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid black;
+	margin: 0 0 40px 0;
+}
+
+.bottom-section .bottom-content {
+	width: 33%;
+	margin: 25px 0 25px 0;
+	padding: 15px;
+}
+
+.bottom-section h2 {
+	font-size: 18px;
+}
+
+.bottom-section p {
+	font-size: 16px;
+}
+
+.contact {
+	text-align: left;
+}
+
+.contact h2 {
+	font-size: 18px;
+}
+
+.contact p {
+	font-size: 16px;
+}
+
+footer {
+	text-align: center;
+	padding: 10%;
+}
+
+/* .services-nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 25px;
+	padding-bottom: 40px;
+}
+
+.services-nav a {
+	padding: 10px;
+   text-decoration: none;
+   color: rgba(15, 15, 15, 0.2);
+}
+
+.services-nav .logo {
+   display: flex;
+   display: wrap;
+}  */
+
+.services-header {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0 0 0;
+	padding: 0 0 40px 0;
+}
+
+.services-header .services-header-img {
+	width: 100%;
+	display: flex;
+}
+
+.services-header .top-div {
+	width: 100%;
+	text-align: left;
+	display: flex;
+	margin: 40px 0 0 0;
+}
+
+.services-header .top-div h3 {
+	font-size: 25px;
+}
+
+.main-service-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	padding: 0 0 40px 0;
+}
+
+.services-div {
+	height: 33%;
+	width: 48%;
+	border: 1px solid rgb(97, 97, 97);
+	background-color: rgb(240, 240, 240);
+	margin: 40px 0 0px 0;
+	padding: 40px 40px 40px 40px;
+}
+
+.services-div p {
+	margin-bottom: 20px;
+}
+
+.services-button {
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	padding: 3px 20px 3px 20px;
+	width: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+}
+
+.bottom-service-section {
+	margin: 40px 0 0 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.services-facts-div {
+	width: 48%;
+}
+
+.services-facts-div ul {
+	list-style-type: square;
+	padding: 20px 0 0 20px;
+	line-height: 40px;
+}
+
+.services-info-img {
+	width: 48%;
+}
